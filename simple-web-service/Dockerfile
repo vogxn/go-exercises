@@ -5,7 +5,7 @@ RUN cd /go/src/github.com/vogxn && git clone https://github.com/vogxn/go-exercis
 WORKDIR /go/src/github.com/vogxn/go-exercises/simple-web-service
 
 # release
-RUN git checkout v2
+RUN git checkout v3
 
 # start the service
 CMD ["go", "run", "simple.go"]

@@ -7,6 +7,6 @@ WORKDIR /go/src/github.com/vogxn/go-exercises/simple-web-service
 CMD ["go", "run", "simple.go"]
 RUN ps
 
-# open port 3000 where a net/http server will run
-EXPOSE 3000
+# open port 3222 where a net/http server will run
+EXPOSE 3222
 

@@ -9,7 +9,6 @@ RUN git checkout v2
 
 # start the service
 CMD ["go", "run", "simple.go"]
-RUN ps
 
 # open port 3222 where a net/http server will run
 EXPOSE 3222
